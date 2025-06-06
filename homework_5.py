@@ -45,6 +45,7 @@ def test_open_sait(driver):
     browser.element('tbody').should(have.text('Mobile 999888776'))
     browser.element('tbody').should(have.text('Date of Birth 08 July,1998'))
     browser.element('tbody').should(have.text('Subjects Maths'))
+    browser.element('tbody').should(have.text('Reading'))
     browser.element('tbody').should(have.text('Picture kalendar-2025.jpg'))
     browser.element('tbody').should(have.text('Address проспект Мира дом 1'))
     browser.element('tbody').should(have.text('State and City Rajasthan Jaipur'))
